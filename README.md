@@ -7,8 +7,8 @@ Base Model 기준으로 총 120만 step을 학습을 진행하였고 기존 Sent
 
 * Base Model(12-layer, 768-hidden, 12-heads)<br>
 
-| Step | seq_length | GELU F1 | GELU EM | swish beta F1 | swish beta EM |
-|:-------:|:-------:|:-------:| :-------:| :-------:| :-------:|
+| Step | seq_length | GELU F1 | GELU EM | swish beta F1 | swish beta EM | | swish F1 | swish EM |
+|:-------:|:-------:|:-------:| :-------:| :-------:| :-------:| :-------:| :-------:| 
 | 40만 | 128 | 77.41% | 62.12% | 00.00% | 00.00% |
 | 60만 | 128 |  78.63% | 63.17% | 00.00% | 00.00% |
 | 90만 | 128 |  80.98% | 65.25% | 00.00% | 00.00% |
