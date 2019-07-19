@@ -26,7 +26,7 @@ def swish(x):
 ## SWISH BETA activation function
 ```python
 
-def alt_swish(x):
+def swish_beta(x):
   beta = tf.Variable(initial_value=1.0, trainable=True, name='swish-beta')
   return x * tf.nn.sigmoid(beta*x)
 ```
