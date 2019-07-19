@@ -5,7 +5,14 @@
 ## GELU 
 
 
+```python
 
+def gelu(x):
+  cdf = 0.5 * (1.0 + tf.tanh(
+      (np.sqrt(2 / np.pi) * (x + 0.044715 * tf.pow(x, 3)))))
+  return x * cdf
+
+```
 
 ## Swish
 ```python
@@ -21,8 +28,6 @@ def swish(x):
 def alt_swish(x):
   beta = tf.Variable(initial_value=1.0, trainable=True, name='swish-beta')
   return x * tf.nn.sigmoid(beta*x)
-  
-
 ```
 
 
