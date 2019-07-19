@@ -14,7 +14,7 @@ def gelu(x):
 
 
 
-## Swish
+## SWISH activation function
 ```python
 
 def swish(x):
@@ -22,7 +22,7 @@ def swish(x):
 
 ```
 
-## Swish beta
+## SWISH BETA activation function
 ```python
 
 def alt_swish(x):
