@@ -1,13 +1,6 @@
 # BERT-Activation-Function
 
-Transformer에서는 activation function을 ReLU를 사용하였지만 BERT에서는 보다 부드러운 형태의 GELU activation function을 사용하였습니다. 이는 ReLU에 비해 음수에 대해서도 미분 가능하여, 약간의 Gradient를 전달할 수 있어 사용하였다고 합니다.
-
-
-<img src = "https://user-images.githubusercontent.com/1250095/50040221-c9a08700-0082-11e9-8aec-8b11d35ab616.png" width=50%>
-
-
-## GELU 
-
+Transformer에서는 activation function을 ReLU를 사용하였지만, BERT에서는 보다 부드러운 형태의 GELU activation function을 사용하였습니다. 이는 ReLU에 비해 음수에 대해서도 미분 가능하여, 약간의 Gradient를 전달할 수 있어 사용하였다고 합니다. 아래는 BERT에서 사용한 GELU 구현 코드입니다.
 
 ```python
 
@@ -17,6 +10,9 @@ def gelu(x):
   return x * cdf
 
 ```
+
+
+
 
 ## Swish
 ```python
