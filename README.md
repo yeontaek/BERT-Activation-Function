@@ -43,7 +43,6 @@ def swish_beta(x):
 |Activation Function | F1 | EM |
 |:-------:|:-------:|:-------:|
 | GELU | 77.41% | 62.12% | 
-| ReLU | 00.00% | 00.00% | 
 | SWISH | 00.00% | 00.00% | 
 | SWISH BETA | 76.34% | 60.56% | 
 
