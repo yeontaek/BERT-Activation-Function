@@ -51,7 +51,7 @@ def alt_swish(x):
 
 ## Reference
 
-[Swish, a new activation function for Neural Network](https://jmlb.github.io/ml/2017/12/31/swish_activation_function/)<br>
-[Swish in depth: A comparison of Swish & ReLU on CIFAR-10](https://medium.com/@jaiyamsharma/swish-in-depth-a-comparison-of-swish-relu-on-cifar-10-1c798e70ee08)<br>
-[Gaussian Error Linear Units (GELUs)](https://arxiv.org/abs/1606.08415)<br>
-[Searching for Activation Functions](https://arxiv.org/abs/1710.05941)
+* [Swish, a new activation function for Neural Network](https://jmlb.github.io/ml/2017/12/31/swish_activation_function/)<br>
+* [Swish in depth: A comparison of Swish & ReLU on CIFAR-10](https://medium.com/@jaiyamsharma/swish-in-depth-a-comparison-of-swish-relu-on-cifar-10-1c798e70ee08)<br>
+* [Gaussian Error Linear Units (GELUs)](https://arxiv.org/abs/1606.08415)<br>
+* [Searching for Activation Functions](https://arxiv.org/abs/1710.05941)
