@@ -8,6 +8,22 @@
 
 
 ## Swish
+```python
+
+def swish(x):
+  return x * tf.nn.sigmoid(x)
+
+```
+
+## Swish beta
+```python
+
+def alt_swish(x):
+  beta = tf.Variable(initial_value=1.0, trainable=True, name='swish-beta')
+  return x * tf.nn.sigmoid(beta*x)
+  
+
+```
 
 
 
