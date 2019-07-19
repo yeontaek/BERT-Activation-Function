@@ -11,7 +11,7 @@ def gelu(x):
 
 ```
 
-[Searching for Activation Functions](https://arxiv.org/abs/1710.05941) 논문에서는 Machine Translation Task에서의 Activation function 성능 비교를 보여주고 있습니다. 해당 논문을 참고하여, 본 repository에서는 SWISH activation function과 GELU의 성능 비교를 진행하였습니다. 
+[Searching for Activation Functions](https://arxiv.org/abs/1710.05941) 논문에서는 Activation Function에 따른 Machine Translation의 성능을 비교하였습니다. 해당 논문을 참고하여, 본 repository에서는 SWISH activation function과 GELU의 성능 비교를 진행하였습니다. 
 
 <img src = "https://k.kakaocdn.net/dn/IvZvO/btquhj4JtWW/x42RsvOWqfxvqkkcAijd1k/img.png" width=65%>
 
