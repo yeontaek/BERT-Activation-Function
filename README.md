@@ -34,8 +34,8 @@ def alt_swish(x):
 
 
 
-## Step별 성능 비교
-학습 시간 문제로 각 40만 step씩 학습을 진행하였고 기존 GELU로 구축한 Model과 성능 비교 결과는 아래와 같습니다. 측정 기준은 step별 KorQuAD Task의 F1,EM으로 측정하였습니다.
+## 성능 비교
+학습 시간 문제로 각 40만 step씩 학습을 진행하였고 기존 GELU로 구축한 Model과 성능 비교 결과는 아래와 같습니다. 측정 기준은 KorQuAD Task의 F1,EM으로 측정하였습니다.
 <br>
 
 * Base Model(12-layer, 768-hidden, 12-heads)<br>
