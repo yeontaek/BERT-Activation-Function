@@ -40,7 +40,7 @@ def alt_swish(x):
 
 * Base Model(12-layer, 768-hidden, 12-heads)<br>
 
-|activation function | F1 | EM |
+|Activation Function | F1 | EM |
 |:-------:|:-------:|:-------:|
 | GELU | 77.41% | 62.12% | 
 | ReLU | 00.00% | 00.00% | 
